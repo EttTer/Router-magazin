@@ -43,9 +43,11 @@ module.exports = {
       }
     ],
   },
-  plugins: [
+  plugins: 
+  [
     new HtmlWebpackPlugin({
       template: 'src/index.html',
+      base:'/'
     }),
     new CopyPlugin({
       patterns: [

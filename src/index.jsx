@@ -11,6 +11,7 @@ import {
   RouterProvider,
   Link,
   Outlet,
+  useParams
 } from "react-router-dom";
 import Movie from './components/Movie/Movie';
 
@@ -51,7 +52,7 @@ const router = createBrowserRouter([
         path: "/movies",
         element: <Movies/>,
         children: [{
-          path: ":id",
+          path: "/movies/:Id",
           element: <Movie/>}
         ]
       }

@@ -8,7 +8,7 @@ const MovieList=()=>{
     {movies.map((movie)=>(
         <Link 
         style={{ display: 'block', margin: '1rem 0' }}
-        to={`movies/${movie.id}`}
+        to={`/movies/${movie.id}`}
     key={movie.id}>
         {movie.title}
     </Link>
@@ -18,5 +18,4 @@ const MovieList=()=>{
 }
 
 export default MovieList
-
 
