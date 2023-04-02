@@ -76,23 +76,3 @@ createRoot(document.querySelector("#app")).render(
   <RouterProvider router={router} />
 );
 
-/* 
-errorElement: <ErrorPage />,
-children: [
-      {
-        path: "/home",
-        element: <Home />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-      {
-        path: "/centers",
-        element: <CentersPage/>,
-      }
-    ]*/
