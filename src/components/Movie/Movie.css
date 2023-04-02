@@ -1,0 +1,20 @@
+.movie {
+  padding-left: 50px;
+}
+.movie h2 {
+  text-align: center;
+}
+.movie img {
+  float: left;
+  margin-right: 20px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.movie p {
+  padding-right: 20px;
+}
+
+.movies-left-column{     display: flex;
+  min-width: 100%;
+}

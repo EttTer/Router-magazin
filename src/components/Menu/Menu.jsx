@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Menu.css";
 
-const Menu =()=>{
-    return (<><h1>Menu</h1>
-    <nav>
+const Menu = () => {
+  return (
+    <>
+      <nav className="menu">
         <Link to="/">Home</Link>
         <Link to="/reviews">Reviews</Link>
         <Link to="/articles">Articles</Link>
         <Link to="/movies">Movies</Link>
-      </nav></>)
-}
+      </nav>
+    </>
+  );
+};
 
-export default Menu
+export default Menu;
